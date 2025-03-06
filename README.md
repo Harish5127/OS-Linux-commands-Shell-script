@@ -264,57 +264,68 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-47-25](https://github.com/user-attachments/assets/07943aac-f979-43dc-8893-ca1ab7770d16)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-47-33](https://github.com/user-attachments/assets/83005360-c36b-4c6e-a018-84706023f63d)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-47-55](https://github.com/user-attachments/assets/bb007092-10a9-4dbc-b768-fad18ded21f2)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-48-04](https://github.com/user-attachments/assets/c96ca1c4-a564-402a-a793-f5ead8a35485)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-48-18](https://github.com/user-attachments/assets/b0c5e973-f40c-4f8d-8299-d11216348043)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-48-31](https://github.com/user-attachments/assets/3e4c3cf5-0021-4874-9ca2-c2817b49d042)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-48-47](https://github.com/user-attachments/assets/ce26dee3-0db7-4a81-8759-a6f4d7b304fe)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-48-59](https://github.com/user-attachments/assets/abe04b27-7644-415a-944b-db8a95173d5b)
 
 
 seq 10 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-49-24](https://github.com/user-attachments/assets/28e04716-2dbf-484d-ae26-53166f2cb725)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-49-44](https://github.com/user-attachments/assets/8c989f06-54d8-462e-8fef-91ee6ac7fc35)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-50-00](https://github.com/user-attachments/assets/7f3b91fa-4e14-40b7-b138-f7399d81ac4f)
 
 
 seq 3 | sed '2a hello'

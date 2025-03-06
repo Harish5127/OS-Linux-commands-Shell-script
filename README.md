@@ -181,58 +181,70 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-26-25](https://github.com/user-attachments/assets/a59ac5f3-8178-4fe9-91fb-571ef675fac0)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-26-33](https://github.com/user-attachments/assets/d8e765fb-9291-4d41-bf04-017d63d1001b)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-
+![Screenshot from 2025-03-06 09-26-45](https://github.com/user-attachments/assets/6e3df2fb-e726-47ff-9648-0781221f2e1a)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-
+![Screenshot from 2025-03-06 09-37-20](https://github.com/user-attachments/assets/2dc09255-0be4-4e8c-9fc2-6b2805819ac2)
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-27-39](https://github.com/user-attachments/assets/71f64f92-b1ca-430a-b8c7-700787df04c9)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-30-09](https://github.com/user-attachments/assets/7ff02c75-7413-4c29-bd02-339a2b08f3f3)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-30-26](https://github.com/user-attachments/assets/d6e08e19-a0b8-4a07-83c5-54d131f1d61d)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-32-04](https://github.com/user-attachments/assets/00f6c228-815b-4501-9556-9e494fbe7e4d)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-32-40](https://github.com/user-attachments/assets/0612bdb8-2eea-490b-b38b-c8b433a25791)
+
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-32-55](https://github.com/user-attachments/assets/e97565a1-1ae7-4e1f-8638-f5e9124e9054)
 
 egrep l{2} newfile
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-33-16](https://github.com/user-attachments/assets/0297ec9c-eac0-4249-a8c8-0ed937e776a4)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+
+![Screenshot from 2025-03-06 09-33-43](https://github.com/user-attachments/assets/d5ff1101-5282-4918-a87d-a5de7e06c016)
 
 
 cat > file23

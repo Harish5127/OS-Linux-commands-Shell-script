@@ -331,23 +331,28 @@ seq 10 | sed -n '2,~4p'
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 10-08-41](https://github.com/user-attachments/assets/4a56f0fc-0aa7-468b-a285-962ac4a462b4)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 10-09-23](https://github.com/user-attachments/assets/02baa0d9-e43b-4057-8b3d-a671092e88ac)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+![Screenshot from 2025-03-06 10-09-48](https://github.com/user-attachments/assets/f7fa4b55-fd28-4923-92e7-9665edcd6379)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-06 10-10-01](https://github.com/user-attachments/assets/ae8a4e5f-2919-4823-a789-e17b13508d45)
 
 
 sed -n '2,4{s/$/*/;p}' file23
 
+![Screenshot from 2025-03-06 10-10-22](https://github.com/user-attachments/assets/0343534a-95f9-41cf-9996-15e3bbbd62c1)
 
 #Sorting File content
 cat > file21

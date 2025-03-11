@@ -366,6 +366,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![Screenshot from 2025-03-10 08-04-27](https://github.com/user-attachments/assets/c9afafb9-095c-4996-a1af-2262192b8307)
 
 cat > file22
 ```
@@ -379,12 +380,15 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![Screenshot from 2025-03-10 08-05-11](https://github.com/user-attachments/assets/d9fa7fd4-ae66-492c-a9c3-0cfcd91a03be)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ 
+![Screenshot from 2025-03-10 08-06-10](https://github.com/user-attachments/assets/17fcc9a0-5d42-4cdc-8fad-6ddc8e1ea2e7)
 
 cat < urllist.txt
 ```
@@ -402,17 +406,20 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![Screenshot from 2025-03-10 08-15-04](https://github.com/user-attachments/assets/99a7fab6-afc4-4bb8-b76f-11e1e56c41da)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![Screenshot from 2025-03-10 08-15-20](https://github.com/user-attachments/assets/2e3db8ee-c90f-4f3d-81a3-0c95f2fd3d35)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
+![Screenshot from 2025-03-10 09-40-19](https://github.com/user-attachments/assets/bc497a1c-4908-45ba-a9dc-efc5de09c381)
 
 mkdir backupdir
  

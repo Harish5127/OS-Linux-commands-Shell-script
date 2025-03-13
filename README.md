@@ -437,7 +437,6 @@ tar -xvf backup.tar
 
 gzip backup.tar
 
-
 ls .gz
 ## OUTPUT
 
@@ -446,7 +445,9 @@ ls .gz
 gunzip backup.tar.gz
 ## OUTPUT
 
- 
+![Screenshot from 2025-03-13 18-11-22](https://github.com/user-attachments/assets/32079fe5-8e24-48fd-93c4-24bee535fe1e)
+
+
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
@@ -456,7 +457,9 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
+![Screenshot from 2025-03-13 18-19-18](https://github.com/user-attachments/assets/b31d4d6b-6f71-43d2-bb54-55066b524ae6)
+
+
 cat << stop > herecheck.txt
 ```
 hello in this world

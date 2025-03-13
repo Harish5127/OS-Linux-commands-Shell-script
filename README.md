@@ -428,15 +428,21 @@ mv backup.tar backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+![Screenshot from 2025-03-11 22-56-07](https://github.com/user-attachments/assets/4241fbc6-f5d2-459f-b684-84c9dd747213)
 
 tar -xvf backup.tar
 ## OUTPUT
 
+![Screenshot from 2025-03-11 22-57-06](https://github.com/user-attachments/assets/ea9f74cf-5b24-4ffa-b973-65a529704273)
+
 gzip backup.tar
+
 
 ls .gz
 ## OUTPUT
- 
+
+![Screenshot from 2025-03-11 23-20-59](https://github.com/user-attachments/assets/823e123d-e312-4d87-a926-3bea5c209a0e)
+
 gunzip backup.tar.gz
 ## OUTPUT
 
@@ -462,6 +468,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
+![Screenshot from 2025-03-13 00-23-16](https://github.com/user-attachments/assets/e215ab41-413a-4e36-a91e-00d0e9d7bb0d)
 
 cat < scriptest.sh 
 ```bash
@@ -500,23 +507,32 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- 
+![Screenshot from 2025-03-13 00-26-12](https://github.com/user-attachments/assets/184e9041-53ea-4097-ba43-e46990c292bb)
+
 ls file1
 ## OUTPUT
 
+![Screenshot from 2025-03-13 00-26-36](https://github.com/user-attachments/assets/d4262028-fee2-4c4a-957d-7d023d01842b)
+
 echo $?
 ## OUTPUT 
+
+![Screenshot from 2025-03-13 00-26-48](https://github.com/user-attachments/assets/8dcf68ed-f6f5-415f-8f3f-e080904f4de3)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+
+![Screenshot from 2025-03-13 00-33-53](https://github.com/user-attachments/assets/fa2128ff-eb70-4117-b95d-f843455489b5)
+
 abcd
  
 echo $?
  ## OUTPUT
-
+ 
+![Screenshot from 2025-03-13 00-33-38](https://github.com/user-attachments/assets/41ef7015-a80a-4a5b-8d54-bfb2c1c45709)
 
  
 # mis-using string comparisons
@@ -556,6 +572,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
+![Screenshot from 2025-03-13 00-35-15](https://github.com/user-attachments/assets/c16e9682-a413-4454-a16c-a22d18a40a76)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -582,6 +599,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
+![Screenshot from 2025-03-13 00-38-55](https://github.com/user-attachments/assets/0d208821-05fb-4dab-a0fe-edf1d594c35f)
 
 # check if with file location
 cat>ifnested.sh 
@@ -627,8 +646,10 @@ fi
 ```
 
 ./ifnested.sh 
+
 ## OUTPUT
 
+![Screenshot from 2025-03-13 00-40-19](https://github.com/user-attachments/assets/8ea7ebd5-16ce-412d-95dc-710239f5e1aa)
 
 
 # using numeric test comparisons
@@ -671,7 +692,10 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+
+## OUTPUT
+
+![Screenshot from 2025-03-13 00-41-25](https://github.com/user-attachments/assets/1df4130e-26be-4d6a-a221-fc908a1fd361)
 
 # check if a file
 cat > ifnested.sh 
@@ -720,7 +744,10 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+
+## OUTPUT
+
+![Screenshot from 2025-03-13 00-42-55](https://github.com/user-attachments/assets/ace92d66-272b-479e-b1bc-e9d04e214202)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -750,6 +777,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![Screenshot from 2025-03-13 00-43-55](https://github.com/user-attachments/assets/7bcb13bc-d8b5-403d-972f-7330cb76b6bd)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -765,6 +793,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+![Screenshot from 2025-03-13 00-46-56](https://github.com/user-attachments/assets/15f9bd7a-c56a-4fe1-a64c-8ef00a038585)
 
 # using the case command
 cat >casecheck.sh 
@@ -783,8 +813,13 @@ esac
 ```
 $ chmod 755 casecheck.sh 
  
-$ ./casecheck.sh 
- 
+$ ./casecheck.sh
+
+## OUTPUT
+
+![Screenshot from 2025-03-13 00-47-47](https://github.com/user-attachments/assets/b1c9a923-15e2-47c4-bd90-66c6aa91d47d)
+
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -799,8 +834,11 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
+## OUTPUT
  
- 
+![Screenshot from 2025-03-13 01-04-35](https://github.com/user-attachments/assets/36645f92-92d6-4546-b1df-75d808741961)
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -812,8 +850,11 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
+
+ ## OUTPUT
+
+ ![Screenshot from 2025-03-13 01-05-26](https://github.com/user-attachments/assets/105fe629-b1d7-455d-af76-09ff8cfb2b46)
+
  
 cat forin1.sh 
 ```bash
@@ -826,8 +867,12 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
+## OUTPUT
+
  
- 
+ ![Screenshot from 2025-03-13 01-06-23](https://github.com/user-attachments/assets/d4eb7fad-a0c2-4b2b-9fe2-bff43cc278ef)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -839,19 +884,12 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
+
 $ ./forin2.sh 
+
+## OUTPUT
+
+ ![Screenshot from 2025-03-13 01-15-23](https://github.com/user-attachments/assets/ace1b994-478c-4048-b8e0-e52130d42029)
  
 cat forin3.sh 
 ```bash
@@ -863,7 +901,11 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+
+## OUTPUT
+
+ ![Screenshot from 2025-03-13 01-27-57](https://github.com/user-attachments/assets/9000aff6-abd2-431c-b5a7-05b1dc241120)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -876,6 +918,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+![Screenshot from 2025-03-13 01-41-55](https://github.com/user-attachments/assets/f65d0145-eda4-40c7-83ea-6b6ec404ed4b)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash

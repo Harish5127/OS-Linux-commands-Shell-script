@@ -152,6 +152,7 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 ## OUTPUT
 
+![Screenshot from 2025-03-16 14-30-24](https://github.com/user-attachments/assets/34f0cffe-2c1e-41d8-816b-917dc2cd0dbe)
 
 
 grep -w -n world newfile   
